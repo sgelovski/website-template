@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav{
+    background-color: #293234;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dflex{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.dwrap{
+    flex-wrap: wrap;
+}
+
+.flexCol{
+    flex-direction: column;
+}
+
+.menuList a{
+    margin: 0px 30px;
+    padding: 15px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuList a:hover{
+    background-color: #1a2021;
+}
+
+.burgerBtn{
+    display: none;
+    justify-content: flex-end;
+}
+
+.burgerBtn input{
+    position: absolute;
+    cursor: pointer;
+    width: 55px;
+    height: 45px;
+    opacity: 0;
+}
+
+.burgerMenuDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    padding: 0 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.burgerMenuDiv p{
+    margin: 0;
+    font-size: 30pt;
+    line-height: 10px;
+}
+
+.bgVideo{
+    width: 100%;
+}
+
+.siteTitle{
+    flex-direction: column;
+    position: absolute;
+    text-align: center;
+    align-self: center;
+}
+
+.siteTitle h1{
+    font-size: 10vw;
+    margin: 0;
+}
+
+.siteTitle h2{
+    font-size: 4rem;
+    margin: 0;
+}
+
+.sectionTitle{
+    font-size: 4vw;
+    color: #4A8CA2;
+}
+
+.aboutSection{
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.aboutSection img{
+    width: 60%;
+}
+
+.aboutText{
+    width: 50%;
+    margin: 10px 50px;
+}
+
+.aboutText p{
+    font-size: 1.7vw;
+}
+
+.teamSection{
+    background-color: #4A8CA2;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.teamSection h1{
+    color: #fff;
+}
+
+.employeePhoto{
+    width: 200px;
+}
+
+.employee{
+    background-color: #fff;
+    padding: 20px 20px;
+    margin: 5px 20px;
+    border-radius: 15px;
+}
+
+.employee h4{
+    color: #8D8B86;
+    font-size: 16pt;
+    margin: 0;
+}
+
+.employee p{
+    color: #8D8B86;
+    font-size: 12pt;
+    margin: 0;
+}
+
+.employee div{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.teamSection div{
+    flex-wrap: wrap;
+}
+
+#newsID{
+    color: #8D8B86;
+}
+
+.newsImg{
+    width: 400px;
+    padding-top: 25px;
+}
+
+.newsWrap{
+    background-color: #fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.news{
+    text-align: center;
+    align-content: center;
+    width: 450px;
+    padding: 15px;
+    margin: 0 20px 20px 20px;
+}
+
+.newsText{
+    text-align: justify;
+    width: 400px;
+    padding: 0 25px;
+}
+
+.newsText h3{
+    margin-bottom: 0;
+}
+
+.newsAuthor{
+    justify-content: flex-start;
+}
+
+.newsAvatar{
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/09/10/36/boy-6781192_1280.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin: 30px 30px 30px 10px;
+}
+
+.author{
+    text-align: left;
+}
+
+.author h4{
+    font-size: 14pt;
+    margin: 0;
+}
+
+.author p{
+    margin: 0;
+}
+
+
+#upBtnID{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99; 
+    border: none;
+    outline: none;
+    background-color: #8D8B86;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#mapID{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.contactSection{
+    background-color: #8D8B86;
+    width: 650px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.contactSection h3{
+    color: #fff;
+    font-size: 18pt;
+}
+
+.contactSection h4{
+    margin: 0 0 10px 0;
+    text-align: left;
+    color: #fff;
+}
+
+.contactSection input{
+    height: 30px;
+    font-size: 14pt;
+    opacity: 0.7;
+    width: 170px;
+}
+
+.contactSection textarea{
+    font-size: 14pt;
+    opacity: 0.7;
+    width: 400px;
+}
+
+.contactDetails{
+    margin: 0 20px;
+}
+
+.contactWrap{
+    width: 500px;
+}
+
+.formRow{
+    margin: 25px;
+}
+
+#subjectID{
+    width: 400px;
+}
+
+.contactDetailsWrap{
+    
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #4A8CA2;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+footer p{
+    margin: 0;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+     nav {
+        flex-direction: column;
+    }
+
+    .sectionTitle{
+        font-size: 6vw;
+    }
+    
+    .burgerBtn{
+        display: flex;
+    }
+
+    .menuList{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutWrap{
+        flex-wrap: wrap;
+    }
+
+    .aboutSection{
+        margin-bottom: 0;
+    }
+
+    .aboutSection img{
+        width: 100%;
+    }
+
+    .aboutText{
+        width: 70%;
+    }
+    
+    .aboutText p{
+        font-size: 4vw;
+    }
+    
+    #mapID{
+        width: 400px;
+    }
+}
